@@ -5,4 +5,4 @@ FROM nginx:alpine
 EXPOSE 80
 
 # copy nama file
-COPY index.html /user/share/nginx/html
+COPY index.html /usr/share/nginx/html
