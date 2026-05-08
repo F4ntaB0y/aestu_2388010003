@@ -30,7 +30,7 @@ jobs:
       with:
         host: ${{ secrets.AWS_HOST }}
         username: ${{ secrets.AWS_USERNAME }}
-        key: ${{ secrets.AWS_PRIVATE_KEY }}
+        key: ${{ secrets.AWS_PRIVATEKEY }}
         port: 22
         script: |
           docker rm -f aestu_2388010003 || true
